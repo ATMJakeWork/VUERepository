@@ -1,7 +1,3 @@
-/* Very obvious Five9 Web Messenger test */
-.five9-frame,
-#five9-frame,
-iframe[id*="five9"],
-iframe[class*="five9"] {
-    outline: 8px solid red !important;
+* {
+  outline: 5px solid red !important;
 }

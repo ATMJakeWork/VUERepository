@@ -30,3 +30,19 @@ background: #f7810b;
 .pn-msg-input__send svg rect {
     fill: #f7810b !important;
 }
+
+
+.root .pn-msg__bubble {
+    opacity: 0.85;
+}
+.pn-msg__author {
+color: #ffffff !important;
+}
+
+.root .text-label-muted {
+    color: #ffffff;
+}
+
+.fn-helper__text {
+color: #ffffff;
+}

@@ -1,12 +1,5 @@
-html,
-body {
-  height: 100%;
+* {
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
-}
-.doerOr {
-    background-size: cover !important;
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
 }

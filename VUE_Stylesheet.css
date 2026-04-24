@@ -1,18 +1,16 @@
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-
+/* Apply to the chat container (adjust selector if needed) */
+body {
     background-image: url("https://raw.githubusercontent.com/ATMJakeWork/VUERepository/refs/heads/main/VUE_Five9_Image1.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
+
+    /* Scale to fit container */
     background-size: cover;
 
+    /* Rotate the background */
     transform: rotate(90deg);
-    transform-origin: center;
+    transform-origin: center center;
 
-    z-index: -1;
+    /* Prevent scrollbars from rotation overflow */
+    overflow: hidden;
 }

@@ -9,10 +9,6 @@ body::before {
     background-position: center;
     background-size: cover;
 
-    /* Rotate and compensate for aspect ratio */
-    transform: rotate(90deg) scale(1.4);
-    transform-origin: center;
-
     z-index: -1;
     pointer-events: none;
 }

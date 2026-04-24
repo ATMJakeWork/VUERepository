@@ -1,6 +1,6 @@
-* {
-    background-image: url("https://raw.githubusercontent.com/ATMJakeWork/VUERepository/refs/heads/main/VUE_Five9_Image1_rotated.jpg") !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
+html,
+body {
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
 }

@@ -1,7 +1,8 @@
 html,
 body {
-  height: 100%;
-  background-size: cover !important;
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
+  outline: 8px solid red !important;
+}
+
+* {
+  font-family: "Comic Sans MS", cursive !important;
 }

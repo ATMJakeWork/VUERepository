@@ -4,3 +4,9 @@
     color: #ff0022;
     border-radius: 50%;
 }
+/* Increase specificity to override default styles */
+.root .pn-msg-input__wrapper.pn-msg-input__wrapper {
+    border-radius: 10px;
+    background-color: #00ff3c;
+    border: 1px solid #ccc;
+}

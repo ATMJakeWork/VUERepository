@@ -1,6 +1,18 @@
-html,
-body,
-* {
-  font-family: "Comic Sans MS" !important;
-  outline: 4px solid red !important;
+/* Full widget background replacement */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    background-image: url("https://raw.githubusercontent.com/ATMJakeWork/VUERepository/refs/heads/main/VUE_Five9_Image1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    /* Rotate and compensate for aspect ratio */
+    transform: rotate(90deg) scale(1.4);
+    transform-origin: center;
+
+    z-index: -1;
+    pointer-events: none;
 }

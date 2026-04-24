@@ -46,3 +46,12 @@ color: #ffffff !important;
 .fn-helper__text {
 color: #ffffff;
 }
+
+
+.btn-outline:hover, .btn-outline.btn-active {
+    background-color: #f7810b;
+}
+
+.cXmfIR{
+border:none;
+}

@@ -12,5 +12,17 @@ background: #f7810b;
 
 .gtRJLb.gtRJLb:hover, .gtRJLb.gtRJLb:focus {
     background-color: #ff00f7;
-    color: #f7810b;
+    color: #ffffff;
+}
+
+.dNBiLD.dNBiLD {
+    color: rgb(243 243 243);
+border: none;
+background: #f7810b;
+}
+
+.dNBiLD.dNBiLD:hover, .dNBiLD.dNBiLD:focus {
+    background-color: #ff00f7;
+    color: #ffffff;
+  text-decoration: none;
 }

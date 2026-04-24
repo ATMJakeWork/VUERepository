@@ -1,16 +1,3 @@
-/* Apply to the chat container (adjust selector if needed) */
 body {
-    background-image: url("https://raw.githubusercontent.com/ATMJakeWork/VUERepository/refs/heads/main/VUE_Five9_Image1.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-
-    /* Scale to fit container */
-    background-size: cover;
-
-    /* Rotate the background */
-    transform: rotate(90deg);
-    transform-origin: center center;
-
-    /* Prevent scrollbars from rotation overflow */
-    overflow: hidden;
+    background: red !important;
 }

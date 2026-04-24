@@ -1,12 +1,7 @@
-/* Higher specificity ensures this rule takes effect */
-.root .chat-button.chat-button {
-    background-color: #0099ff;
-    color: #ff0022;
-    border-radius: 50%;
-}
-/* Increase specificity to override default styles */
-.root .pn-msg-input__wrapper.pn-msg-input__wrapper {
-    border-radius: 10px;
-    background-color: #00ff3c;
-    border: 1px solid #ccc;
+/* Very obvious Five9 Web Messenger test */
+.five9-frame,
+#five9-frame,
+iframe[id*="five9"],
+iframe[class*="five9"] {
+    outline: 8px solid red !important;
 }

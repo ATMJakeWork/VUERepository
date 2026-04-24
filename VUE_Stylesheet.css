@@ -1,6 +1,6 @@
 /* Higher specificity ensures this rule takes effect */
 .root .chat-button.chat-button {
     background-color: #0099ff;
-    color: #ffffff;
+    color: #ff0022;
     border-radius: 50%;
 }

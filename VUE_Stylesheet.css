@@ -52,6 +52,11 @@ color: #ffffff;
     background-color: #f7810b;
 }
 
+.root .hover\:bg-cyan-600:hover {
+    background-color: white;
+    color: #f7810b;
+}
+  
 .cXmfIR{
 border:none;
 }

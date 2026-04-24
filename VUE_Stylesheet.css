@@ -1,5 +1,3 @@
 * {
-  background-size: cover !important;
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
+  filter: hue-rotate(90deg) !important;
 }

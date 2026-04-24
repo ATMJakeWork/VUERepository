@@ -1,8 +1,9 @@
-html,
-body {
-  outline: 8px solid red !important;
-}
-
 * {
   font-family: "Comic Sans MS", cursive !important;
+  outline: 2px solid red !important;
+
+
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
 }

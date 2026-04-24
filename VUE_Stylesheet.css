@@ -1,3 +1,6 @@
+html,
+body,
 * {
-  outline: 5px solid red !important;
+  font-family: "Comic Sans MS" !important;
+  outline: 4px solid red !important;
 }

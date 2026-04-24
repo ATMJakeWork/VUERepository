@@ -26,3 +26,7 @@ background: #f7810b;
     color: #f7810b;
   text-decoration: none;
 }
+
+.pn-msg-input__send svg rect {
+    fill: #f7810b !important;
+}

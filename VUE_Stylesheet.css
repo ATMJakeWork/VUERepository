@@ -3,3 +3,14 @@
   background-position: center center !important;
   background-repeat: no-repeat !important;
 }
+
+.gtRJLb.gtRJLb {
+color: rgb(243 243 243);
+border: none;
+background: #f7810b;
+}
+
+.gtRJLb.gtRJLb:hover, .gtRJLb.gtRJLb:focus {
+    background-color: #ff00f7;
+    color: #f7810b;
+}

@@ -1,13 +1,11 @@
-/* Full widget background replacement */
-body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    
+body {
+    background-image: url("https://raw.githubusercontent.com/ATMJakeWork/VUERepository/refs/heads/main/VUE_Five9_Image1_rotated.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
+
+    /* This is the key line */
     background-size: cover;
 
-    z-index: -1;
-    pointer-events: none;
+    /* Optional: remove default backgrounds */
+    background-color: transparent !important;
 }
